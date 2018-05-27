@@ -1,0 +1,69 @@
+{
+  "name": "vue-intl-numberformat",
+  "description": "Tiny reusable Vue wrapper for Intl NumberFormat",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vinayak Kulkarni",
+    "email": "vinayak.kulkarni@live.com",
+    "url": "https://vinayak.site"
+  },
+  "private": false,
+  "main": "dist/vue-intl-numberformat.min.js",
+  "module": "dist/vue-intl-numberformat.esm.js",
+  "files": ["dist/*"],
+  "keywords": [
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "vue2",
+    "NumberFormat",
+    "UI",
+    "UX",
+    "vue-intl-numberformat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkulkarni/vue-intl-numberformat.git"
+  },
+  "scripts": {
+    "test": "npm run bundle && karma start karma.conf.js",
+    "test-watch": "karma start karma.conf.js --no-single-run",
+    "build": "npm run bundle && npm run bundle:min",
+    "bundle": "rollup -c build/rollup.conf.js",
+    "bundle:min": "rollup -c build/rollup.min.conf.js"
+  },
+  "devDependencies": {
+    "aliasify": "^2.1.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-browserify": "^5.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "^0.0.32",
+    "phantomjs-prebuilt": "^2.1.16",
+    "rollup": "^0.59.3",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-plugin-vue": "^4.2.0",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16",
+    "watchify": "^3.11.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/vinayakkulkarni/vue-intl-numberformat/issues"
+  },
+  "homepage": "https://github.com/vinayakkulkarni/vue-intl-numberformat#readme"
+}
