@@ -4,6 +4,8 @@
 
 * Tiny reusable Vue wrapper for Intl NumberFormat
 
+- Demo Link: [Click Here](http://bit.ly/vue-intl-numberformat)
+
 - This is [on GitHub](https://github.com/vinayakkulkarni/vue-intl-numberformat) so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
 ## Install
