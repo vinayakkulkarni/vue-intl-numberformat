@@ -38,7 +38,7 @@ export default {
         options.currency = this.currency;
       }
 
-      if ('currency' in this) {
+      if ('maximumSignificantDigits' in this) {
         options.maximumSignificantDigits = this.maxDigits;
       }
 
