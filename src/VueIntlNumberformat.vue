@@ -30,12 +30,19 @@ export default {
   },
   computed: {
     localeString() {
-      const t = this;
-      return new Intl.NumberFormat(`${t.locale}`, {
-        style: `${t.formatStyle}`,
-        currency: `${t.currency}`,
-        maximumSignificantDigits: t.maxDigits,
-      }).format(t.number);
+      let options = {
+        style: this.formatStyle,
+      };
+
+      if ('currency' in this) {
+        options.currency = this.currency;
+      }
+
+      if ('maximumSignificantDigits' in this) {
+        options.maximumSignificantDigits = this.maxDigits;
+      }
+
+      return new Intl.NumberFormat(`${this.locale}`, options).format(this.number);
     },
   },
 };
