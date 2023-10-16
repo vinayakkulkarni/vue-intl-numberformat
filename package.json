@@ -37,7 +37,7 @@
   "devDependencies": {
     "aliasify": "^2.1.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^10.1.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
