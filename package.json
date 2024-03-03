@@ -53,7 +53,7 @@
     "karma-browserify": "^5.3.0",
     "karma-jasmine": "^1.1.2",
     "karma-phantomjs-launcher": "^1.0.4",
-    "karma-spec-reporter": "^0.0.32",
+    "karma-spec-reporter": "^0.0.36",
     "phantomjs-prebuilt": "^2.1.16",
     "rollup": "^0.59.4",
     "rollup-plugin-babel": "^3.0.7",
